@@ -1,0 +1,25 @@
+1 int main()
+
+2 {
+
+3 int num,maior,ind;
+
+4 maior = 0;
+
+5 for (ind= 1; ind <=100; ind=ind+1)
+
+6 {
+
+7 scanf ("%d ",&num);
+
+8 if (num > maior)
+
+9 maior=num;
+
+10 }
+
+11 printf ("%d /n O maior dos números lidos e: ",maior);
+
+12 return 0;
+
+13 }
